@@ -1,0 +1,67 @@
+body {
+    margin: 0;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    background-image: url('../assets/carfon.gif');
+    background-size: 1920px 1080px;
+    background-position: center;
+    background-repeat: no-repeat;
+}
+
+.game-container {
+    position: relative;
+    width: 1000px;
+    height: 1080px;
+}
+
+#gameCanvas {
+    display: block;
+    background: transparent; /* Şeffaf yol */
+}
+
+.ui {
+    position: absolute;
+    top: 20px;
+    right: 20px;
+    text-align: center;
+    font-family: Arial, sans-serif;
+}
+
+.score {
+    font-size: 32px;
+    color: white;
+    text-shadow: 2px 2px 2px black;
+    margin-bottom: 10px;
+}
+
+.timer {
+    font-size: 24px;
+    color: white;
+    text-shadow: 2px 2px 2px black;
+    margin-bottom: 10px;
+}
+
+#startButton {
+    font-size: 20px;
+    padding: 10px 20px;
+    cursor: pointer;
+    background-color: #4CAF50;
+    color: white;
+    border: none;
+    border-radius: 5px;
+}
+
+#startButton:hover {
+    background-color: #45a049;
+}
+
+#soundToggle {
+    width: 40px;
+    height: 40px;
+    position: absolute;
+    top: -60px;
+    right: 0;
+    cursor: pointer;
+}
